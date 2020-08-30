@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-
+@import url("https://fonts.googleapis.com/css?family=open+sans:300,300i,400,400i");
 
 * { box-sizing: border-box; } 
 	
@@ -320,7 +320,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		font-family: "Open Sans", Arial, sans-serif;
-		font-size: 1rem;
+		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65;
 	}
@@ -2257,7 +2257,6 @@ input, select, textarea {
 	input[type="button"],
 	button,
 	.button {
-		-webkit-mask-image: -webkit-radial-gradient(white, black);
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
@@ -2266,7 +2265,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-		
+		-webkit-mask-image: -webkit-radial-gradient(white, black);
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
@@ -3121,7 +3120,7 @@ input, select, textarea {
 
 		table th {
 			font-size: 0.9rem;
-			font-weight: 300;
+			font-weight: 400;
 			padding: 0 0.75rem 0.75rem 0.75rem;
 			text-align: left;
 		}
@@ -6488,7 +6487,7 @@ input, select, textarea {
 				line-height: 1;
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
-				font-weight: 300;
+				font-weight: 900;
 			}
 
 			.gallery.style2 > .forward:before, .gallery.style2 > .backward:before {
