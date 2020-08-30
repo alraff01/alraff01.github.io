@@ -319,7 +319,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		font-family: "Open Sans", Arial, sans-serif;
-		font-size: 16pt;
+		font-size: 1rem;
 		font-weight: 300;
 		line-height: 1.65;
 	}
