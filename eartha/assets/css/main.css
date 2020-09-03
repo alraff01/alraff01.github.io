@@ -30,7 +30,7 @@
   }
  /* LOGO - when screen is less than 1024px wide
      show mobile version and hide desktop version */
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1007px){
 	.topleft .desktop {
 		display:block;
 		width: 100%;
@@ -41,7 +41,7 @@
 		display:none;
 	}
 }
-@media only screen and (max-width: 1023px){
+@media only screen and (max-width: 1006px){
 	
 	.topleft .mobile {
 		display:block;
