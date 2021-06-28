@@ -263,10 +263,27 @@ input, select, textarea {
 /* additional text formatting */
 #valueslist{
 	padding-left: 60px;
+	padding-top: 20px;
 }
 #WWAlist{
+	padding-top: 20px;
 	padding-left: 60px;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
 }
+
+#formattedlist{
+	padding-top: 20px;
+}
+
+#formattedlist2{
+	padding-top: 10px;
+}
+
+#top15 {
+	padding-top: 15px;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -2686,6 +2703,11 @@ input, select, textarea {
 	textarea {
 		border-color: rgba(0, 0, 0, 0.2);
 	}
+
+	/*ontact Form - hidden honeypot*/
+	input.honeypot {
+    display: none;
+}
 /*Form Fields Formatting*/
 		input[type="text"]:focus,
 		input[type="password"]:focus,
